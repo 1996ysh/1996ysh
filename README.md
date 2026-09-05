@@ -1,16 +1,12 @@
 ## Hi there 👋
 
-<!--
-**1996ysh/1996ysh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center" style="margin: 20px 0; width: 100%;">
+  <picture>
+    <!-- 深色主题显示深色版贪吃蛇 -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blackirlsama/blackirlsama/output/github-contribution-grid-snake-dark.svg">
+    <!-- 浅色主题显示浅色版贪吃蛇 -->
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/blackirlsama/blackirlsama/output/github-contribution-grid-snake.svg">
+    <!-- 兜底显示浅色版 -->
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/blackirlsama/blackirlsama/output/github-contribution-grid-snake.svg" style="width: 100%; border-radius: 8px;">
+  </picture>
+</div>
