@@ -1,28 +1,19 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20,24&height=200&section=header&text=玖玖奇妙%20workspace&fontSize=42&fontAlignY=35&desc=🌸%20co-learner%20·%20深夜胡思乱想%20·%20慢慢变好&descAlignY=55&descSize=14&animation=fadeIn&fontColor=fff" width="100%" alt="玖玖奇妙 workspace" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20,24&height=180&section=header&text=玖玖奇妙%20workspace&fontSize=40&fontAlignY=38&desc=🌸%20co-learner%20·%20深夜胡思乱想%20·%20慢慢变好&descAlignY=58&descSize=14&animation=fadeIn&fontColor=fff" width="100%" alt="玖玖奇妙 workspace" />
 
-<p>
-  <img src="./assets/chars/pikachu.gif" height="72" alt="Pikachu" />
-  <img src="./assets/chars/hachiware.gif" height="72" alt="小八 Hachiware" />
-  <img src="./assets/chars/usagi.gif" height="72" alt="乌萨奇 Usagi" />
-  <img src="./assets/chars/chiikawa.gif" height="72" alt="吉伊 Chiikawa" />
-</p>
+[![typing](https://readme-typing-svg.demolab.com?font=Quicksand&weight=600&size=24&duration=3500&pause=1200&color=F8A5C2&center=false&vCenter=true&repeat=true&width=480&height=40&lines=welcome+to+my+spacework+%E2%9C%A8)](https://git.io/typing-svg)
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Quicksand&weight=600&size=26&duration=3500&pause=1200&color=F8A5C2&center=false&vCenter=true&repeat=true&width=520&height=50&lines=welcome+to+my+spacework+%E2%9C%A8" alt="welcome to my spacework" />
-</a>
-
-### 🌙 招呼一下
-
-嗨嗨～欢迎来到 **玖玖奇妙 workspace** 💭
-
-平常更常是深夜一个人胡思乱想，而不是 coding。  
-但还是希望能和大家一起成长，做彼此的 **co-learner** 🌱
-
-✨ 一起慢慢变好，一起把想法一点点落地吧～
+### <img src="./assets/chars/pikachu-icon.gif" height="28" alt="pikachu" /> 关于我
 
 ---
 
-### 🍡 Tech Stack
+- 👋 嗨嗨～欢迎来到 **玖玖奇妙 workspace** <img src="./assets/chars/usagi-emoji.gif" height="18" alt="usagi" />
+- 👀 平常更常是深夜一个人胡思乱想，而不是 coding <img src="./assets/chars/chiikawa-emoji.gif" height="18" alt="chiikawa" />
+- 💞 希望能和大家一起成长，做彼此的 **co-learner** <img src="./assets/chars/hachiware-emoji.gif" height="18" alt="hachiware" />
+- 🌱 一起慢慢变好，believe ourselves <img src="./assets/chars/pikachu-emoji.gif" height="18" alt="pikachu" />
+
+### <img src="./assets/chars/hachiware-icon.gif" height="28" alt="hachiware" /> Tech Stack
+
+---
 
 **Frontend · Vue**
 
@@ -42,45 +33,31 @@
 
 **Agent · LangChain / LangGraph**
 
-<a href="https://www.langchain.com/" title="LangChain">
-  <img src="https://img.shields.io/badge/LangChain-F8A5C2?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
-</a>
-<a href="https://www.langchain.com/langgraph" title="LangGraph">
-  <img src="https://img.shields.io/badge/LangGraph-A8E6CF?style=for-the-badge&logo=graphql&logoColor=5B8A72" alt="LangGraph" />
-</a>
+<a href="https://www.langchain.com/" title="LangChain"><img src="https://img.shields.io/badge/LangChain-F8A5C2?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" /></a>
+<a href="https://www.langchain.com/langgraph" title="LangGraph"><img src="https://img.shields.io/badge/LangGraph-A8E6CF?style=for-the-badge&logo=graphql&logoColor=5B8A72" alt="LangGraph" /></a>
 <a href="https://www.python.org/" title="Python"><img src="https://skillicons.dev/icons?i=python&theme=light" alt="Python" /></a>
 
----
-
-### 🍃 Motto
-
-> 悟已往之不谏，知来者之可追
-
-> 希望能够成为自己想要成为的样子 🌸
-
-<p>
-  <img src="./assets/chars/usagi.gif" height="64" alt="乌萨奇" />
-  <img src="./assets/chars/hachiware.gif" height="64" alt="小八" />
-  <img src="./assets/chars/pikachu.gif" height="64" alt="Pikachu" />
-</p>
+### <img src="./assets/chars/usagi-icon.gif" height="28" alt="usagi" /> Motto
 
 ---
 
-### 💌 Contact me
+- 🌸 悟已往之不谏，知来者之可追
+- ✨ 希望能够成为自己想要成为的样子 <img src="./assets/chars/chiikawa-emoji.gif" height="18" alt="chiikawa" />
 
-<a href="mailto:jiujiuyyy999@163.com">
-  <img src="https://img.shields.io/badge/Email-jiujiuyyy999%40163.com-FFDAC1?style=for-the-badge&logo=maildotru&logoColor=5B4636" alt="Email" />
-</a>
+### <img src="./assets/chars/chiikawa-icon.gif" height="28" alt="chiikawa" /> Contact me
+
+---
+
+<a href="mailto:jiujiuyyy999@163.com"><img src="https://img.shields.io/badge/Email-jiujiuyyy999%40163.com-FFDAC1?style=for-the-badge&logo=maildotru&logoColor=5B4636" alt="Email" /></a>
 <img src="https://img.shields.io/badge/QQ-3130633491-F8A5C2?style=for-the-badge&logo=tencentqq&logoColor=white" alt="QQ" />
 <img src="https://img.shields.io/badge/WeChat-wsadysh1996-A8E6CF?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat" />
 
 <br />
-<br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/1996ysh/1996ysh/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/1996ysh/1996ysh/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/1996ysh/1996ysh/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/snake/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="./assets/snake/github-contribution-grid-snake.svg" />
 </picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20,24&height=120&section=footer&animation=fadeIn" width="100%" alt="footer wave" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20,24&height=100&section=footer&animation=fadeIn" width="100%" alt="footer wave" />
