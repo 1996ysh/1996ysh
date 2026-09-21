@@ -2,16 +2,18 @@
 
 [![typing](https://readme-typing-svg.demolab.com?font=Quicksand&weight=600&size=24&duration=3500&pause=1200&color=F8A5C2&center=false&vCenter=true&repeat=true&width=480&height=40&lines=welcome+to+my+spacework+%E2%9C%A8)](https://git.io/typing-svg)
 
-### <img src="./assets/chars/pikachu-icon.gif" height="28" alt="pikachu" /> 关于我
+👋 嗨嗨～欢迎来到 **玖玖奇妙 workspace** 🌙
+
+### 💭 关于我
 
 ---
 
-- 👋 嗨嗨～欢迎来到 **玖玖奇妙 workspace** <img src="./assets/chars/usagi-emoji.gif" height="18" alt="usagi" />
-- 👀 平常更常是深夜一个人胡思乱想，而不是 coding <img src="./assets/chars/chiikawa-emoji.gif" height="18" alt="chiikawa" />
-- 💞 希望能和大家一起成长，做彼此的 **co-learner** <img src="./assets/chars/hachiware-emoji.gif" height="18" alt="hachiware" />
-- 🌱 一起慢慢变好，believe ourselves <img src="./assets/chars/pikachu-emoji.gif" height="18" alt="pikachu" />
+- 🎓 在 hbmzu 苦苦挣扎的大学牲
+- 👀 平常更常是深夜一个人胡思乱想，而不是 coding 💭
+- 💞 希望能和大家一起成长，做彼此的 **co-learner** 🌱
+- ✨ 一起慢慢变好，believe ourselves 🌸
 
-### <img src="./assets/chars/hachiware-icon.gif" height="28" alt="hachiware" /> Tech Stack
+### 🛠️ Tech Stack
 
 ---
 
@@ -37,14 +39,14 @@
 <a href="https://www.langchain.com/langgraph" title="LangGraph"><img src="https://img.shields.io/badge/LangGraph-A8E6CF?style=for-the-badge&logo=graphql&logoColor=5B8A72" alt="LangGraph" /></a>
 <a href="https://www.python.org/" title="Python"><img src="https://skillicons.dev/icons?i=python&theme=light" alt="Python" /></a>
 
-### <img src="./assets/chars/usagi-icon.gif" height="28" alt="usagi" /> Motto
+### 🍃 Motto
 
 ---
 
 - 🌸 悟已往之不谏，知来者之可追
-- ✨ 希望能够成为自己想要成为的样子 <img src="./assets/chars/chiikawa-emoji.gif" height="18" alt="chiikawa" />
+- ✨ 希望能够成为自己想要成为的样子
 
-### <img src="./assets/chars/chiikawa-icon.gif" height="28" alt="chiikawa" /> Contact me
+### 💌 Contact me
 
 ---
 
