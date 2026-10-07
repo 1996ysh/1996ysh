@@ -2,13 +2,18 @@ name: Generate Snake
 
 on:
   schedule:
+    # 每天检查一次是否有新贡献；只有贡献数增加时才提交
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/snake.yml"
+    inputs:
+      force:
+        description: Force regenerate snake even if contributions did not increase
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 jobs:
   generate:
@@ -21,7 +26,38 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check for new GitHub contributions
+        id: contrib
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          USER="${{ github.repository_owner }}"
+          FORCE="false"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.force }}" = "true" ]; then
+            FORCE="true"
+          fi
+
+          TOTAL="$(gh api graphql -f query='query($login:String!){user(login:$login){contributionsCollection{contributionCalendar{totalContributions}}}}' -f login="$USER" --jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')"
+
+          STATE_FILE="assets/snake/contribution-state.json"
+          PREV=0
+          if [ -f "$STATE_FILE" ]; then
+            PREV="$(jq -r '.totalContributions // 0' "$STATE_FILE")"
+          fi
+
+          echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
+          echo "previous=$PREV" >> "$GITHUB_OUTPUT"
+
+          if [ "$FORCE" = "true" ] || [ "$TOTAL" -gt "$PREV" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "New contributions detected ($PREV -> $TOTAL) or force run."
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No new contributions since last snake update ($TOTAL). Skipping commit."
+          fi
+
       - name: Generate snake SVGs
+        if: steps.contrib.outputs.changed == 'true'
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -30,13 +66,19 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#F8A5C2&color_dots=#161b22,#3d2a32,#6b4554,#F8A5C2,#A8E6CF
 
       - name: Copy snake into assets
+        if: steps.contrib.outputs.changed == 'true'
         run: |
           mkdir -p assets/snake
           cp dist/github-contribution-grid-snake.svg assets/snake/
           cp dist/github-contribution-grid-snake-dark.svg assets/snake/
+          printf '{"totalContributions":%s,"updatedAt":"%s"}\n' \
+            "${{ steps.contrib.outputs.total }}" \
+            "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            > assets/snake/contribution-state.json
 
       - name: Commit updated snake
+        if: steps.contrib.outputs.changed == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update contribution snake"
-          file_pattern: assets/snake/*.svg
+          file_pattern: assets/snake/*
