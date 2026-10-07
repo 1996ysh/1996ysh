@@ -50,8 +50,8 @@
 
 ---
 
-<a href="mailto:jiujiuyyy999@163.com"><img src="https://img.shields.io/badge/Email-jiujiuyyy999%40163.com-FFDAC1?style=for-the-badge&logo=maildotru&logoColor=5B4636" alt="Email" /></a>
-<img src="https://img.shields.io/badge/QQ-3130633491-F8A5C2?style=for-the-badge&logo=tencentqq&logoColor=white" alt="QQ" />
+<a href="mailto:jiujiuyyy999@163.com"><img src="https://img.shields.io/badge/%F0%9F%93%A7_Email-jiujiuyyy999%40163.com-FFDAC1?style=for-the-badge&logo=maildotru&logoColor=5B4636" alt="📧 Email" /></a>
+<img src="https://img.shields.io/badge/%F0%9F%90%A7_QQ-3130633491-F8A5C2?style=for-the-badge&logo=tencentqq&logoColor=white" alt="🐧 QQ" />
 <img src="https://img.shields.io/badge/WeChat-wsadysh1996-A8E6CF?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat" />
 
 <br />
